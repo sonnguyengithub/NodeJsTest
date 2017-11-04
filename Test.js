@@ -2,7 +2,7 @@ var http = require('http');
 //Now your application has access to the HTTP module, and is able to create a server:
 
 http.createServer(function (req, res) {
-        res.writeHead(200, {'Content-Type': su ngay da'text/html'});
+        res.writeHead(200, {'Content-Type': 'text/html'});//aaa
         res.end('Hello New NodeJs!');
     }).listen(8080);
 
